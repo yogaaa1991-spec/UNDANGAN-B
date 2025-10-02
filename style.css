@@ -1,48 +1,566 @@
-/* Judul elegan pakai Dancing Script */
-.akad-nikah,
-.resepsi,
-.diva-bagas,
-.diva-bagas2,
-.the-wedding,
-.our-album {
-  font-family: 'Dancing Script', cursive !important;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: #ffffff;
 }
 
-/* Isi utama pakai Caladea */
-.minggu-12-oktober-2025,
-._08-00-wib,
-.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen,
-.minggu-12-oktober-20252,
-._09-00-wib-selesai,
-.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen2 {
-  font-family: 'Caladea', serif !important;
+/* Wrapper supaya auto-scale */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #fff;
 }
 
-/* Section title pakai Roboto tebal */
-.engagement,
-.the-first-meet {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 700;
+/* Ini ukuran asli desain (harus sesuai ukuran figma export) */
+.home {
+  width: 421px;     /* lebar desain figma */
+  height: 4206px;   /* tinggi desain figma */
+  transform-origin: top center;
+  transform: scale(calc(100vw / 421));
 }
 
-/* Isi cerita / paragraf kecil */
-.leo-ipsum-justo-enim-augue-neque-eu-pulvinar-etiam-elit-quam-gravida-a-nec-mauris-eu-nulla-vulputate-vitae-nisl-massa-vulputate-tellus-sit-sit-integer-cras-nibh-sodales-sit-pharetra-tellus-elit-in-adipis,
-.leo-ipsum-justo-enim-augue-neque-eu-pulvinar-etiam-elit-quam-gravida-a-nec-mauris-eu-nulla-vulputate-vitae-nisl-massa-vulputate-tellus-sit-sit-integer-cras-nibh-sodales-sit-pharetra-tellus-elit-in-adipiscing-vulputate-platea-pharetra-et-purus-ultricies-aliquam-et-amet-quam-neque-pellentesque-id-risus {
-  font-family: 'Roboto', sans-serif !important;
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  height: 4206px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-38 {
+  background: #3d5f3e;
+  width: 421px;
+  height: 4206px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-1 {
+  width: 522px;
+  height: 310px;
+  position: absolute;
+  left: -67px;
+  top: -32px;
+  object-fit: cover;
+}
+.diva-bagas {
+  color: #e7efda;
+  text-align: center;
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.305em;
+  font-weight: 400;
+  position: absolute;
+  left: 38px;
+  top: 139px;
+  width: 341px;
+  height: 207px;
+}
+.the-wedding {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 131px;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-4 {
+  background: #0d2d1e;
+  width: 318px;
+  height: 366px;
+  position: absolute;
+  left: 46px;
+  top: 361px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ic-outline-access-time {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 73px;
+  top: 569px;
+  overflow: visible;
+}
+.rectangle-5 {
+  border-style: solid;
+  border-color: #b7c9b9;
+  border-width: 1px;
+  width: 287px;
+  height: 330px;
+  position: absolute;
+  left: 60px;
+  top: 381px;
+}
+.akad-nikah {
+  color: #e7efda;
+  text-align: center;
+  font-family: "DancingScript", cursive;
+  font-size: 36px;
+  line-height: 96.5%;
+  font-weight: 400;
+  position: absolute;
+  left: 102px;
+  top: 475px;
+  width: 195px;
+  height: 52px;
+}
+.minggu-12-oktober-2025 {
+  color: #e7efda;
+  text-align: left;
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 98px;
+  top: 539px;
+}
+._08-00-wib {
+  color: #e7efda;
+  text-align: left;
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 99px;
+  top: 569px;
+}
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen {
+  color: #e7efda;
+  text-align: left;
+  position: absolute;
+  left: 98px;
+  top: 599px;
+  width: 209px;
+  height: 48px;
+}
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen-span {
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 14px;
   font-weight: 400;
 }
-
-/* Tombol tebal */
-.log-in,
-.log-in2 {
-  font-family: 'Roboto', sans-serif !important;
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen-span2 {
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.ic-outline-place {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 72px;
+  top: 599px;
+  overflow: visible;
+}
+.pngegg-10-1 {
+  width: 221px;
+  height: 88px;
+  position: absolute;
+  left: 94px;
+  top: 318px;
+  object-fit: cover;
+}
+.bi-calendar-date {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 73px;
+  top: 539px;
+  overflow: hidden;
+}
+.group {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.rectangle-39 {
+  background: #0d2d1e;
+  width: 318px;
+  height: 366px;
+  position: absolute;
+  left: 45px;
+  top: 811px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.wedding-rings-1 {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left: 173px;
+  top: 410px;
+  overflow: hidden;
+}
+.outline {
+  width: 93.75%;
+  height: 87.5%;
+  position: absolute;
+  right: 3.12%;
+  left: 3.12%;
+  bottom: 6.25%;
+  top: 6.25%;
+  overflow: visible;
+}
+.ic-outline-access-time2 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 72px;
+  top: 1017px;
+  overflow: visible;
+}
+.rectangle-40 {
+  border-style: solid;
+  border-color: #bb9096;
+  border-width: 1px;
+  width: 287px;
+  height: 330px;
+  position: absolute;
+  left: 59px;
+  top: 831px;
+}
+.resepsi {
+  color: #e7efda;
+  text-align: center;
+  font-family: "DancingScript", cursive;
+  font-size: 36px;
+  line-height: 96.5%;
+  font-weight: 400;
+  position: absolute;
+  left: 101px;
+  top: 925px;
+  width: 195px;
+  height: 52px;
+}
+.minggu-12-oktober-20252 {
+  color: #e7efda;
+  text-align: left;
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 97px;
+  top: 987px;
+}
+._09-00-wib-selesai {
+  color: #e7efda;
+  text-align: left;
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 98px;
+  top: 1015px;
+}
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen2 {
+  color: #e7efda;
+  text-align: left;
+  position: absolute;
+  left: 97px;
+  top: 1043px;
+  width: 209px;
+  height: 48px;
+}
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen-2-span {
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen-2-span2 {
+  font-family: "Caladea-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.ic-outline-place2 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 71px;
+  top: 1049px;
+  overflow: visible;
+}
+.pngegg-10-2 {
+  width: 221px;
+  height: 88px;
+  position: absolute;
+  left: 93px;
+  top: 768px;
+  object-fit: cover;
+}
+.button {
+  width: 235px;
+  height: 32px;
+  position: absolute;
+  left: 87px;
+  top: 1102px;
+}
+.button2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.rectangle-2 {
+  background: var(--6, #0d2d1e);
+  border-radius: 30px;
+  border-style: solid;
+  border-color: var(--6, #0d2d1e);
+  border-width: 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.log-in {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.04em;
   font-weight: 900;
   text-transform: uppercase;
+  position: absolute;
+  right: 35.65%;
+  left: 34.56%;
+  width: 29.79%;
+  bottom: 25.48%;
+  top: 27.64%;
+  height: 46.88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-/* Input & placeholder */
-.placeholder,
-.placeholder2 {
-  font-family: 'Roboto', sans-serif !important;
+.bi-calendar-date2 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 72px;
+  top: 987px;
+  overflow: hidden;
+}
+.group2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+._40-toolbar-bell {
+  width: 10.72%;
+  height: 4.48%;
+  position: absolute;
+  right: 3.29%;
+  left: 85.99%;
+  bottom: -7.93%;
+  top: 103.45%;
+  overflow: hidden;
+}
+.person {
+  height: auto;
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  overflow: visible;
+}
+.cheers-1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 173px;
+  top: 867px;
+  overflow: hidden;
+}
+.group3 {
+  width: 100%;
+  height: 95.08%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 2.46%;
+  top: 2.46%;
+  overflow: visible;
+}
+.image-2 {
+  width: 348px;
+  height: 197px;
+  position: absolute;
+  left: 73px;
+  top: 1235px;
+  box-shadow: 0px 2px 12px 2px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.leo-ipsum-justo-enim-augue-neque-eu-pulvinar-etiam-elit-quam-gravida-a-nec-mauris-eu-nulla-vulputate-vitae-nisl-massa-vulputate-tellus-sit-sit-integer-cras-nibh-sodales-sit-pharetra-tellus-elit-in-adipis {
+  color: var(--7, #f3f3f2);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
   font-weight: 400;
+  position: absolute;
+  left: 34px;
+  top: 1534px;
+  width: 360px;
+  height: 115px;
 }
+.pngegg-10-22 {
+  width: 164px;
+  height: 65px;
+  position: absolute;
+  left: 177px;
+  top: 1397px;
+  object-fit: cover;
+}
+.image-4 {
+  width: 348px;
+  height: 194px;
+  position: absolute;
+  left: 7px;
+  top: 1734px;
+  box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.engagement {
+  color: var(--7, #f3f3f2);
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 129.7%;
+  letter-spacing: 0.155em;
+  font-weight: 700;
+  position: absolute;
+  left: 34px;
+  top: 1973px;
+  width: 155px;
+  height: 22px;
+}
+.the-first-meet {
+  color: var(--7, #f3f3f2);
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 129.7%;
+  letter-spacing: 0.155em;
+  font-weight: 700;
+  position: absolute;
+  left: 33px;
+  top: 1468px;
+  width: 216px;
+  height: 23px;
+}
+._25-01-2022 {
+  color: var(--6, #0d2d1e);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 34px;
+  top: 2002px;
+  width: 155px;
+  height: 16px;
+}
+._2018 {
+  color: var(--6, #0d2d1e);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 34px;
+  top: 1496px;
+  width: 85px;
+  height: 16px;
+}
+.leo-ipsum-justo-enim-augue-neque-eu-pulvinar-etiam-elit-quam-gravida-a-nec-mauris-eu-nulla-vulputate-vitae-nisl-massa-vulputate-tellus-sit-sit-integer-cras-nibh-sodales-sit-pharetra-tellus-elit-in-adipiscing-vulputate-platea-pharetra-et-purus-ultricies-aliquam-et-amet-quam-neque-pellentesque-id-risus {
+  color: var(--7, #f3f3f2);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 32px;
+  top: 2038px;
+  width: 361px;
+  height: 119px;
+}
+.pngegg-10-3 {
+  width: 164px;
+  height: 65px;
+  position: absolute;
+  left: 103px;
+  top: 1896px;
+  object-fit: cover;
+}
+.our-album {
+  color: var(--7, #f3f3f2);
+  text-align: center;
+  font-family: "DancingScript", cursive;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 2198px;
+  width: 272px;
+  height: 54px;
+}
+.image-11 {
+  border-radius: 10px;
+  width: 182px;
+  height: 124px;
+  position: absolute;
+  left: 15px;
+  top: 2940px;
+  box-shadow: 1px 4px 5px 2px rgba(121, 121, 121, 0.25);
+  object-fit: cover;
+}
+.image-24 {
+  border-radius: 10px;
+  width: 182px;
+  height: 124px;
+  position: absolute;
+  left: 15px;
+  top: 2808px;
+  box-shadow: 1px 4px 5px 2px rgba(121, 121, 121, 0.25);
+  object-fit: cover;
+}
+.image-17 {
+  border-radius: 10px;
+  width: 182px;
+  height: 249px;
+  position: absolute;
+  left: 15px;
+  top: 2270px;
+  object-fit: cover;
+}
+.image-15 {
+  border-radius: 10px;
+  width: 182px;
+  height: 249px;
