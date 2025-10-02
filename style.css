@@ -1,0 +1,48 @@
+/* Judul elegan pakai Dancing Script */
+.akad-nikah,
+.resepsi,
+.diva-bagas,
+.diva-bagas2,
+.the-wedding,
+.our-album {
+  font-family: 'Dancing Script', cursive !important;
+}
+
+/* Isi utama pakai Caladea */
+.minggu-12-oktober-2025,
+._08-00-wib,
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen,
+.minggu-12-oktober-20252,
+._09-00-wib-selesai,
+.kediaman-mempelai-wanita-randakeli-rt-03-04-pohkumbang-karanganyar-kebumen2 {
+  font-family: 'Caladea', serif !important;
+}
+
+/* Section title pakai Roboto tebal */
+.engagement,
+.the-first-meet {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+}
+
+/* Isi cerita / paragraf kecil */
+.leo-ipsum-justo-enim-augue-neque-eu-pulvinar-etiam-elit-quam-gravida-a-nec-mauris-eu-nulla-vulputate-vitae-nisl-massa-vulputate-tellus-sit-sit-integer-cras-nibh-sodales-sit-pharetra-tellus-elit-in-adipis,
+.leo-ipsum-justo-enim-augue-neque-eu-pulvinar-etiam-elit-quam-gravida-a-nec-mauris-eu-nulla-vulputate-vitae-nisl-massa-vulputate-tellus-sit-sit-integer-cras-nibh-sodales-sit-pharetra-tellus-elit-in-adipiscing-vulputate-platea-pharetra-et-purus-ultricies-aliquam-et-amet-quam-neque-pellentesque-id-risus {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+}
+
+/* Tombol tebal */
+.log-in,
+.log-in2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Input & placeholder */
+.placeholder,
+.placeholder2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+}
